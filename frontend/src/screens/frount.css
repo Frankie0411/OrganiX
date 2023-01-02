@@ -1,31 +1,42 @@
 * {
-    margin: 10px;
-    padding:20px;
-    padding-left: 0px;
+    margin: 0px;
+    padding:0px;
     padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    border: 0;
+    margin-left: 0px;
     
 }
 .landing-img{
     background-image:url("../components/vegetable.jpg");
+    padding: 0px;
     background-size: cover;
-    min-width: 50%;
-    padding-left: 300px;
-    min-height: 50%;
+    padding-left: 0px;
+    padding-bottom: 00px;
+    padding-top: 00px;
+    margin: 0px;
+    margin-left: 0px;
+    height: 772px;
 }
 .test1{
     padding-bottom: 200px;
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 550px;
     font-style: oblique;
-    color: hsl(0, 14%, 30%);
+    color: hsl(0, 100%, 99%);
     font-family: Arial;
+    border: 0;
 }
 .test{
-    padding-bottom: 300px;
-    padding-top: 0px;
+    padding-top: 200px;
+    padding-left: 550px;
     font-style: oblique;
+    color: hsl(0, 100%, 99%);
     font-family: Arial;
-    color: hsl(0, 14%, 30%);
+    border: 0;
 }
 .click{
     font-size: "2em";
@@ -33,9 +44,10 @@
     height: 30;
 	display:"inline-block";
 	padding:"35px";
-    padding-left: 275px;
+    padding-left: 700px;
 	margin:"100px";
     color: "#333";
     font-weight: "bold";
-     line-height: "1px"; 
+    line-height: "1px"; 
+    border: 0;
 }
