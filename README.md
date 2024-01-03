@@ -1,6 +1,6 @@
 # OrganiX
 
-> A MERN full stack ecommerce project
+> A MERN full-stack e-commerce project
 
 ## Tech Used
 
@@ -15,7 +15,7 @@
 
 ## Features
 
-- Full featured shopping cart
+- Full-featured shopping cart
 - Product reviews and ratings
 - Top products carousel
 - Product pagination
@@ -24,23 +24,21 @@
 - Admin product management
 - Admin user management
 - Admin Order details page
-- Mark orders as delivered option
+- Mark orders as a delivered option
 - Checkout process (shipping, payment method, etc)
-- PayPal / credit card integration
 - Database seeder (products & users)
 
 ## Usage
 
 ### Env Variables
 
-Create a .env file in then root and add the following
+Create a .env file in the root and add the following
 
 ```
 NODE_ENV = development
 PORT = 5000
 MONGO_URI = your mongodb uri
 JWT_SECRET = 'any random string without spaces'
-PAYPAL_CLIENT_ID = your paypal client id
 ```
 
 ### Install Dependencies (frontend & backend)
@@ -69,7 +67,7 @@ cd frontend
 npm run build
 ```
 
-There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
+There is a Heroku post-build script, so if you push to Heroku, there is no need to build manually for deployment to Heroku
 
 ### Seed Database
 
